@@ -8,7 +8,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Hana — 不妊治療サポート",
+  title: "Moira — 不妊治療サポート",
   description: "あなたの不妊治療に寄り添うサポートアプリ",
 };
 

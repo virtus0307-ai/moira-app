@@ -99,7 +99,7 @@ export default function Home() {
         <div className="max-w-md mx-auto px-5 py-3 flex items-center gap-3">
           <span className="text-3xl leading-none">🌸</span>
           <div>
-            <h1 className="text-base font-bold text-rose-700 leading-tight">Hana</h1>
+            <h1 className="text-base font-bold text-rose-700 leading-tight">Moira</h1>
             <p className="text-xs text-rose-400 leading-none">不妊治療サポート</p>
           </div>
           <p className="ml-auto text-xs text-stone-400">

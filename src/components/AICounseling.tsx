@@ -180,7 +180,7 @@ export default function AICounseling({ treatmentDates, emotionEntries, onAddEmot
   const [drugQuery,       setDrugQuery]        = useState("");
   const [drugResult,      setDrugResult]       = useState<DrugInfo | null>(null);
   const [chatMessages,    setChatMessages]     = useState<ChatMessage[]>([
-    { id: 0, role: "ai", text: "こんにちは。私はあなたの不妊治療をサポートする Hana AI です。今日のお気持ちをどうぞ自由にお話しください。🌸" },
+    { id: 0, role: "ai", text: "こんにちは。私はあなたの不妊治療をサポートする Moira AI です。今日のお気持ちをどうぞ自由にお話しください。🌸" },
   ]);
   const [chatInput,       setChatInput]        = useState("");
   const [isTyping,        setIsTyping]         = useState(false);
@@ -285,7 +285,7 @@ export default function AICounseling({ treatmentDates, emotionEntries, onAddEmot
               <div className="flex gap-3">
                 <div className="w-10 h-10 bg-rose-100 rounded-full flex-shrink-0 flex items-center justify-center text-xl">🌸</div>
                 <div className="flex-1">
-                  <p className="text-xs text-rose-400 font-semibold mb-1">Hana AI より</p>
+                  <p className="text-xs text-rose-400 font-semibold mb-1">Moira AI より</p>
                   <p className="text-sm text-stone-700 leading-relaxed">{selectedStamp.response}</p>
                 </div>
               </div>
